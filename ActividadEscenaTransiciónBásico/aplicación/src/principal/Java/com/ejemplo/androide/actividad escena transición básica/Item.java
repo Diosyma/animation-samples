@@ -40,14 +40,9 @@ public class Item {
         for (Item item : ITEMS) {
             if (item.getId() == id) {
                 return item;
-            }
-        }
-        return null;
-    }
-
-    private final String mName;
-    private final String mAuthor;
-    private final String mFileName;
+Name;
+Author;
+FileName;
 
     Item (String name, String author, String fileName) {
         mName = name;
